@@ -1,8 +1,10 @@
 #### Rgen-Ferris
 
 
-###A-Random-Number-generator-with-Ferris-the-Crab
+A-Random-Number-generator-with-Ferris-the-Crab
 
-###To-run-use 
+To-run-use 
 
-## Cargo-Run
+Cargo-Run
+
+I made this for @danii
