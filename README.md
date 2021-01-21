@@ -1,4 +1,4 @@
 ### Rgen-Ferris
 
 
-A ramdom Number  gemnrator with Ferris the crab
+####A Random Number Generator with Ferris the Crab
