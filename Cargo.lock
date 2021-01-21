@@ -25,7 +25,7 @@ checksum = "89203f3fba0a3795506acaad8ebce3c80c0af93f994d5a1d7a0b1eeb23271929"
 
 [[package]]
 name = "numgen"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "rand",
 ]
