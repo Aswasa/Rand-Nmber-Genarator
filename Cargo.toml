@@ -1,6 +1,6 @@
 [package]
 name = "numgen"
-version = "0.0.2"
+version = "0.1.0"
 authors = ["aswasa"]
 edition = "2018"
 
@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 rand = "0.8.2"
 ferris-says = "0.2.0"
+ferris_print = "0.1.0"
 [[bin]]
 name = "numgen"
 path = "main.rs"

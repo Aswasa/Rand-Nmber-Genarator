@@ -93,6 +93,17 @@ dependencies = [
 
 [[package]]
 name = "ferris-says"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "16799a62a45bd9146f7eb8d2191893ce66f249901171c67a10b6e5e45942619d"
+dependencies = [
+ "clap",
+ "error-chain",
+ "smallvec",
+]
+
+[[package]]
+name = "ferris-says"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7f34f82e9a8b1533c027d018abd90b8687bf923be287b2617dfce4bea4ea3687"
@@ -102,6 +113,15 @@ dependencies = [
  "smallvec",
  "textwrap",
  "unicode-width",
+]
+
+[[package]]
+name = "ferris_print"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "551b7de36d95eed82a45ccf641a5bb1d78ceb488dec4f1ecd17b3906d8cd8a23"
+dependencies = [
+ "ferris-says 0.1.2",
 ]
 
 [[package]]
@@ -148,9 +168,10 @@ dependencies = [
 
 [[package]]
 name = "numgen"
-version = "0.0.2"
+version = "0.0.5"
 dependencies = [
- "ferris-says",
+ "ferris-says 0.2.0",
+ "ferris_print",
  "rand",
 ]
 
