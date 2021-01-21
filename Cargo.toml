@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 rand = "0.8.2"
+ferris-says = "0.2.0"
 [[bin]]
 name = "numgen"
 path = "main.rs"
