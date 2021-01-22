@@ -13,10 +13,10 @@ fn main() {
     let n2: u16 = rng.gen();
     let mut child = Command::new("sleep").arg("3").spawn().unwrap();
     let _result = child.wait().unwrap();
-    #[macro_use]
+  #[macro_use]
     ferrisprint!("Random u8: {}", n1);
     let mut child = Command::new("sleep").arg("3").spawn().unwrap();
     let _result = child.wait().unwrap();
-    #[macro_use]
+  #[macro_use]
     ferrisprint!("Random u16: {}", n2);
 }
