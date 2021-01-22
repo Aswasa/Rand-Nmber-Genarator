@@ -168,7 +168,7 @@ dependencies = [
 
 [[package]]
 name = "numgen"
-version = "0.0.5"
+version = "1.1.0"
 dependencies = [
  "ferris-says 0.2.0",
  "ferris_print",
